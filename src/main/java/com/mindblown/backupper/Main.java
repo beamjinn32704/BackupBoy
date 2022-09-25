@@ -12,7 +12,6 @@ public class Main {
     public static MainFrame main;
     
     public static void main(String[] args) {
-        //Util.startupShortcut("Backupper", "Backupper.exe", new String[]{});
         File regFile = new File(Main.registryName);
         Register register = Register.genRegister(regFile);
         main = new MainFrame(register);
